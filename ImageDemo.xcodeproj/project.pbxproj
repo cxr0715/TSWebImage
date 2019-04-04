@@ -15,6 +15,7 @@
 		9DCFACC02253495600EEED03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFACBF2253495600EEED03 /* main.m */; };
 		9DCFACCA2253495600EEED03 /* ImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFACC92253495600EEED03 /* ImageDemoTests.m */; };
 		9DCFACD52253495600EEED03 /* ImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFACD42253495600EEED03 /* ImageDemoUITests.m */; };
+		9DCFACE422535AE100EEED03 /* mew_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DCFACE322535AE100EEED03 /* mew_baseline.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9DCFACD02253495600EEED03 /* ImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCFACD42253495600EEED03 /* ImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDemoUITests.m; sourceTree = "<group>"; };
 		9DCFACD62253495600EEED03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCFACE322535AE100EEED03 /* mew_baseline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mew_baseline.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		9DCFACAF2253495400EEED03 /* ImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9DCFACE222535AC200EEED03 /* source */,
 				9DCFACB02253495400EEED03 /* AppDelegate.h */,
 				9DCFACB12253495400EEED03 /* AppDelegate.m */,
 				9DCFACB32253495400EEED03 /* ViewController.h */,
@@ -130,6 +133,14 @@
 				9DCFACD62253495600EEED03 /* Info.plist */,
 			);
 			path = ImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		9DCFACE222535AC200EEED03 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9DCFACE322535AE100EEED03 /* mew_baseline.jpg */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				9DCFACBD2253495600EEED03 /* LaunchScreen.storyboard in Resources */,
 				9DCFACBA2253495600EEED03 /* Assets.xcassets in Resources */,
+				9DCFACE422535AE100EEED03 /* mew_baseline.jpg in Resources */,
 				9DCFACB82253495400EEED03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
