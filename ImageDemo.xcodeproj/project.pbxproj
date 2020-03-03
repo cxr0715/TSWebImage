@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D495293225DEEB500A60FB9 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D495292225DEEB400A60FB9 /* WebP.framework */; };
+		9D49529A225DEFA100A60FB9 /* TSImageWebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D495299225DEFA100A60FB9 /* TSImageWebP.m */; };
+		9D4F154B225B3F0D0033DB28 /* UIImageView+TSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F154A225B3F0D0033DB28 /* UIImageView+TSImage.m */; };
+		9D4F1552225B52D20033DB28 /* TSImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4F1551225B52D20033DB28 /* TSImageOperation.m */; };
+		9D79EA03226072220001ACE7 /* NSObject+YYTaskPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D79EA01226072210001ACE7 /* NSObject+YYTaskPool.m */; };
+		9D79EA06226072390001ACE7 /* TaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D79EA05226072390001ACE7 /* TaskScheduler.m */; };
+		9D7E4A79226ADCC000AB8D55 /* TSList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E4A78226ADCC000AB8D55 /* TSList.m */; };
+		9DA373C12261C1B800803209 /* TSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA373C02261C1B800803209 /* TSImageCache.m */; };
 		9DCFACB22253495400EEED03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFACB12253495400EEED03 /* AppDelegate.m */; };
 		9DCFACB52253495400EEED03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFACB42253495400EEED03 /* ViewController.m */; };
 		9DCFACB82253495400EEED03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCFACB62253495400EEED03 /* Main.storyboard */; };
@@ -36,6 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D49528C225DCE9700A60FB9 /* ImageDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDemo.pch; sourceTree = "<group>"; };
+		9D495292225DEEB400A60FB9 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ImageDemo/WebP.framework; sourceTree = "<group>"; };
+		9D495298225DEFA100A60FB9 /* TSImageWebP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSImageWebP.h; sourceTree = "<group>"; };
+		9D495299225DEFA100A60FB9 /* TSImageWebP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImageWebP.m; sourceTree = "<group>"; };
+		9D4F1549225B3F0D0033DB28 /* UIImageView+TSImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TSImage.h"; sourceTree = "<group>"; };
+		9D4F154A225B3F0D0033DB28 /* UIImageView+TSImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TSImage.m"; sourceTree = "<group>"; };
+		9D4F1550225B52D20033DB28 /* TSImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSImageOperation.h; sourceTree = "<group>"; };
+		9D4F1551225B52D20033DB28 /* TSImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImageOperation.m; sourceTree = "<group>"; };
+		9D79EA01226072210001ACE7 /* NSObject+YYTaskPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYTaskPool.m"; sourceTree = "<group>"; };
+		9D79EA02226072220001ACE7 /* NSObject+YYTaskPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYTaskPool.h"; sourceTree = "<group>"; };
+		9D79EA04226072390001ACE7 /* TaskScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskScheduler.h; sourceTree = "<group>"; };
+		9D79EA05226072390001ACE7 /* TaskScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskScheduler.m; sourceTree = "<group>"; };
+		9D7E4A77226ADCC000AB8D55 /* TSList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSList.h; sourceTree = "<group>"; };
+		9D7E4A78226ADCC000AB8D55 /* TSList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSList.m; sourceTree = "<group>"; };
+		9DA373BF2261C1B800803209 /* TSImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSImageCache.h; sourceTree = "<group>"; };
+		9DA373C02261C1B800803209 /* TSImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSImageCache.m; sourceTree = "<group>"; };
 		9DCFACAD2253495400EEED03 /* ImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCFACB02253495400EEED03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DCFACB12253495400EEED03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D495293225DEEB500A60FB9 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +105,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19CF590DBD0CED6C9A5622F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D44A98F225C95210075C707 /* TaskSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				9D79EA02226072220001ACE7 /* NSObject+YYTaskPool.h */,
+				9D79EA01226072210001ACE7 /* NSObject+YYTaskPool.m */,
+				9D79EA04226072390001ACE7 /* TaskScheduler.h */,
+				9D79EA05226072390001ACE7 /* TaskScheduler.m */,
+			);
+			path = TaskSchedule;
+			sourceTree = "<group>";
+		};
+		9D495294225DEF7000A60FB9 /* ImageHelp */ = {
+			isa = PBXGroup;
+			children = (
+				9D495298225DEFA100A60FB9 /* TSImageWebP.h */,
+				9D495299225DEFA100A60FB9 /* TSImageWebP.m */,
+			);
+			path = ImageHelp;
+			sourceTree = "<group>";
+		};
+		9D4F1548225B3ED90033DB28 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				9D4F1549225B3F0D0033DB28 /* UIImageView+TSImage.h */,
+				9D4F154A225B3F0D0033DB28 /* UIImageView+TSImage.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		9D4F154C225B4A2D0033DB28 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				9D4F1550225B52D20033DB28 /* TSImageOperation.h */,
+				9D4F1551225B52D20033DB28 /* TSImageOperation.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		9DA373BE2261C1A900803209 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				9DA373BF2261C1B800803209 /* TSImageCache.h */,
+				9DA373C02261C1B800803209 /* TSImageCache.m */,
+				9D7E4A77226ADCC000AB8D55 /* TSList.h */,
+				9D7E4A78226ADCC000AB8D55 /* TSList.m */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
 		9DCFACA42253495400EEED03 = {
 			isa = PBXGroup;
 			children = (
+				9D495292225DEEB400A60FB9 /* WebP.framework */,
 				9DCFACAF2253495400EEED03 /* ImageDemo */,
 				9DCFACC82253495600EEED03 /* ImageDemoTests */,
 				9DCFACD32253495600EEED03 /* ImageDemoUITests */,
 				9DCFACAE2253495400EEED03 /* Products */,
+				19CF590DBD0CED6C9A5622F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +187,11 @@
 			isa = PBXGroup;
 			children = (
 				9DCFACE222535AC200EEED03 /* source */,
+				9D4F1548225B3ED90033DB28 /* category */,
+				9D4F154C225B4A2D0033DB28 /* Operation */,
+				9D495294225DEF7000A60FB9 /* ImageHelp */,
+				9D44A98F225C95210075C707 /* TaskSchedule */,
+				9DA373BE2261C1A900803209 /* cache */,
 				9DCFACB02253495400EEED03 /* AppDelegate.h */,
 				9DCFACB12253495400EEED03 /* AppDelegate.m */,
 				9DCFACB32253495400EEED03 /* ViewController.h */,
@@ -113,6 +201,7 @@
 				9DCFACBB2253495600EEED03 /* LaunchScreen.storyboard */,
 				9DCFACBE2253495600EEED03 /* Info.plist */,
 				9DCFACBF2253495600EEED03 /* main.m */,
+				9D49528C225DCE9700A60FB9 /* ImageDemo.pch */,
 			);
 			path = ImageDemo;
 			sourceTree = "<group>";
@@ -167,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DCFACDC2253495600EEED03 /* Build configuration list for PBXNativeTarget "ImageDemoTests" */;
 			buildPhases = (
+				02399BE9BD14DA19EB972F85 /* [CP] Check Pods Manifest.lock */,
 				9DCFACC12253495600EEED03 /* Sources */,
 				9DCFACC22253495600EEED03 /* Frameworks */,
 				9DCFACC32253495600EEED03 /* Resources */,
@@ -185,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DCFACDF2253495600EEED03 /* Build configuration list for PBXNativeTarget "ImageDemoUITests" */;
 			buildPhases = (
+				65CA7BFFDC317EC65B45386E /* [CP] Check Pods Manifest.lock */,
 				9DCFACCC2253495600EEED03 /* Sources */,
 				9DCFACCD2253495600EEED03 /* Frameworks */,
 				9DCFACCE2253495600EEED03 /* Resources */,
@@ -269,13 +360,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02399BE9BD14DA19EB972F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65CA7BFFDC317EC65B45386E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DCFACA92253495400EEED03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DCFACB52253495400EEED03 /* ViewController.m in Sources */,
+				9D79EA03226072220001ACE7 /* NSObject+YYTaskPool.m in Sources */,
+				9D4F154B225B3F0D0033DB28 /* UIImageView+TSImage.m in Sources */,
+				9D4F1552225B52D20033DB28 /* TSImageOperation.m in Sources */,
+				9D7E4A79226ADCC000AB8D55 /* TSList.m in Sources */,
+				9DA373C12261C1B800803209 /* TSImageCache.m in Sources */,
+				9D79EA06226072390001ACE7 /* TaskScheduler.m in Sources */,
 				9DCFACC02253495600EEED03 /* main.m in Sources */,
+				9D49529A225DEFA100A60FB9 /* TSImageWebP.m in Sources */,
 				9DCFACB22253495400EEED03 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,15 +592,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DBG8ET4E72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDemo",
+					"$(PROJECT_DIR)/WebP.framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ImageDemo/ImageDemo.pch";
 				INFOPLIST_FILE = ImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = caoxuerui.ImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -464,15 +618,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DBG8ET4E72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDemo",
+					"$(PROJECT_DIR)/WebP.framework",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ImageDemo/ImageDemo.pch";
 				INFOPLIST_FILE = ImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = caoxuerui.ImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
