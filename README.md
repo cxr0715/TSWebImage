@@ -48,11 +48,11 @@ NSURLSessionTask可以看做是NSURLSessionDataTask，NSURLSessionDownloadTask�
 
 NSURLSession使用：
 
-![](/Users/yyinc/Library/Application Support/typora-user-images/image-20190422181410683.png)
+![](https://s2.ax1x.com/2020/03/03/3h7xSg.png)
 
 创建NSURLSessionConfiguration，可以设定缓存策略，超时时间，网络服务类型等。通过NSURLSessionConfiguration创建NSURLSession，指定通过delegate的形式回调，可以指定回调的NSOperationQueue。再创建NSURLSessionTask，每一个创建的NSURLSessionTask都是被挂起的状态，调用resume执行该任务。
 
-![](/Users/yyinc/Library/Application Support/typora-user-images/image-20190422182436934.png)
+![3h7qTP.png](https://s2.ax1x.com/2020/03/03/3h7qTP.png)
 
 在当前类中实现NSURLSessionDataDelegate，在- (void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition disposition))completionHandler;中实现completionHandler(NSURLSessionResponseAllow);以允许接受后续数据。
 
@@ -66,7 +66,7 @@ NSURLSession使用：
 
 TSImage仿照SD和YYWebImage，自定义集成自NSOperation的TSImageOperation，把每一个新的请求都封装为一个TSImageOperation，加入创建出来的TSImageOperation到TaskScheduler中。因为是继承NSOperation的自定义Operation任务，所以需要自己定义executing，finished等状态，自己去维护这些状态。通过重写- (BOOL)isConcurrent方法允许并发，通过重写- (void)start方法来启动自定义的Operation任务。在start方法中启动NSURLSession，在对应的delegate中回调数据。
 
-![](/Users/yyinc/Library/Application Support/typora-user-images/image-20190422203957705.png)
+![3h7zlQ.png](https://s2.ax1x.com/2020/03/03/3h7zlQ.png)
 
 ## 2.图片缓存
 
@@ -76,7 +76,7 @@ TSImage仿照SD和YYWebImage，自定义集成自NSOperation的TSImageOperation�
 
 TSImage使用TSImageCache，继承自NSCache，也有自己实现的双向链表TSList，自己实现的简单的LRU算法。
 
-![](/Users/yyinc/Library/Application Support/typora-user-images/image-20190422211941295.png)
+![3h7jfS.png](https://s2.ax1x.com/2020/03/03/3h7jfS.png)
 
 ## 3.异步decode图片
 
